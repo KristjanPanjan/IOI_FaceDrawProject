@@ -1,0 +1,27 @@
+Face Draw - obrazna pobarvanka
+Kristjan Panjan, 63190420
+
+NAVODILA ZA ZAGON
+
+Naloga kot lahko vidite je spisana v Processing okolju, 
+zato za zagon ni potrebnih nikakršnih posebnih pogojev.
+
+Za pravilno delovanje na drugi strani pa morata biti 
+izpolnjena dva pogoja in sicer:
+	- računalnik mora imeti kamero, podpirati mora 
+	resolucijo 640x480 @30.
+	- računalnik mora imeti mikrofon, mikrofon pa mora imeti 
+	dovoljenje, da ga lahko uporabljajo vse aplikacije (Windows 10)
+
+V aplikaciji sta definirani dve spremenljivki, ki se tičeta mikrofona.
+Spremenljivki sta trenutno nastavljeni tako, da je aplikacija zadovoljivo
+delovala na mojem osebnem računalniku. Lahko se zgodi, da vrednosti, ki 
+so trenutno nastavljene ne bodo ustrezale mikrofonu na drugih računalnikih, 
+zato jih v primeru težav lahko spremenite/nastavite, da bi bila izkušnja
+boljša.
+
+Spremenljivke:
+ - "ampt" 	: amplituda, ki se bere z mikrofona.
+ - "amptMeja" 	: amplitudna meja nad katero aplikacija riše na platno.
+		Če je amplituda pod to mejo, se na platnu nebo pojavilo nič.
+ - "switchAmp"	: amplitudna meja nad katero se proži menjava oblike čopiča.
